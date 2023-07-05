@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: #2d572c;
+    font-weight: 900;
+    transition: .5s;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    background-color: #1e351e;
+    color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 1000px;
+    mask-border-width: auto;
+    transition: .5s;
+    padding: 8px 3.5rem;
+    margin-top: 90px;
+}
+
+.btn:hover {
+    background-color: #559b4e;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/financasimage.jpg.crdownload);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    width: 100%;
+    background-size: cover;
+    display: fixed;
+    align-items: center;
+}
+
+.hero-content {
+    /* display: flex; */
+    width: 50%;
+    padding: 5rem;
+    position: scroll;
+    flex-direction: column;
+    /* margin-top: 90px; */
+    margin-left: 80px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 13vmin;
+}
+
+.hero-content p {
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    line-height: 3rem;
+}
+h1 {
+    font-size: 80px;
+    margin-top: 90px;
+}
+
+.planos-title {
+    font-size: 5vmin;
+    text-align: center;
+    margin: 4rem 0 2rem;
+    color: #1e351e;
+}
+
+.planos-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.plano-item {
+    width: 28%;
+    margin: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: 1px 1px 30px #559b4e;
+    border-radius: 5px;
+    transition: .5s;
+    max-width: 28%;
+    max-height: 30%;
+    
+}
+
+.plano-item:hover {
+    background-color: #559b4e;
+}
+
+.plano-item img {
+    width: 350px;
+    border-radius: 5px;
+}
+
+.plano-item h3 {
+    margin: 2rem 0;
+    font-weight: 800;
+}
+
+.plano-item p {
+    margin: 0 0 3rem;
+    width: 100%;
+}
+
